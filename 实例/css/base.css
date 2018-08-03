@@ -1,0 +1,128 @@
+.w {
+	width: 1190px;
+	margin: 0 auto;
+}
+
+/*字体样式*/
+
+@font-face {
+  font-family: 'icomoon';
+  src:  url('../fonts/icomoon.eot?74ezee');
+  src:  url('../fonts/icomoon.eot?74ezee#iefix') format('embedded-opentype'),
+    url('../fonts/icomoon.ttf?74ezee') format('truetype'),
+    url('../fonts/icomoon.woff?74ezee') format('woff'),
+    url('../fonts/icomoon.svg?74ezee#icomoon') format('svg');
+  font-weight: normal;
+  font-style: normal;
+}
+
+/*全局应用标签*/
+
+
+i,
+ul,
+li,
+span,
+div {
+	margin: 0;
+	padding: 0;
+}
+
+
+
+i {
+	font-family: "icomoon";
+	font-style: normal;	
+}
+
+a {
+	text-decoration: none;
+
+}
+
+.f10 {
+	color: #f10215!important;
+}
+
+/*顶部广告位开始*/
+
+header {
+	background-color: #FE578B;
+	height: 80px;
+}
+
+header div {
+	background-image: url("../img/header.jpg");
+	height: 80px;
+}
+
+
+header i {
+	color: #f1b9c3;
+	float: right;
+	margin: 5px 10px;
+}
+/*顶部广告位结束*/
+
+
+/*导航部分 开始*/
+
+.top-nva {
+	text-align: center;
+	height: 30px;
+	background-color: #E3E4E5;
+}
+
+.top-nva .massge {
+	background-color: pink;
+    line-height: 30px;	
+	font-size: 12px;
+	color: #999999;
+	height: 30px;
+	
+}
+
+.map {
+	margin-left: 200px;
+	float: left;
+
+}
+
+.massge .bq {
+	float: right;
+
+}
+
+.map i {
+	font-size: 14px;
+	color: #f10215;	
+}
+
+.massge a {
+	color: #999999;
+}
+
+.massge a:hover {
+	color: #f10215;
+}
+
+.massge .spe {
+	margin-left: 0px;
+}
+
+
+.massge ul li {
+	margin-right: 8px;
+	list-style: none;
+	display: inline-block;
+}
+
+.line span {
+	display: inline-block;
+	width: 1px;
+	height: 10px;
+	background-color: #999;
+	margin-left: 10px;
+}
+
+/*导航部分 结束*/
